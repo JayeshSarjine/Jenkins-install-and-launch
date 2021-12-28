@@ -1,8 +1,3 @@
-# Jenkins-install-and-launch
-
-
-
-
 #!/bin/bash
 
 sudo apt update
