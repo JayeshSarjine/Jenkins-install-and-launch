@@ -1,7 +1,7 @@
 #!/bin/bash
 
 sudo apt update
-sudo apt install openjdk-8-jdk -y
+sudo apt install openjdk-1.8-jdk -y
 sudo apt install git maven -y
 
 curl -fsSL https://pkg.jenkins.io/debian-stable/jenkins.io.key | sudo tee \
@@ -11,4 +11,4 @@ echo deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc] \
   /etc/apt/sources.list.d/jenkins.list > /dev/null
 sudo apt-get update
 sudo apt-get install jenkins -y
-echo "Done"
+
